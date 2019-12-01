@@ -1,0 +1,55 @@
+
+.profile-pic:hover{
+  opacity: 1;
+}
+
+.btn-alterar-perfil{
+  position: relative; 
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: #913fb3;
+  padding: 2px 8px 4px 8px;
+  border-radius: 15px;
+}
+/*
+
+.foto-perfil-box:hover .foto-perfil {
+  opacity: 0.3;
+}
+
+.foto-perfil-box:hover .foto-perfil-btn-box {
+  opacity: 1;
+}*/
+
+.foto-perfil-btn {
+  font-size:15px;
+  padding:10px 15px;
+}
+.box-skills{padding-bottom:30px;border-bottom: solid 1px #fff}
+span.text-checkbox{
+  color:#fff;
+  font-size:20px;
+}
+
+@media (max-width:1024px) {
+	.titulo-stronger{
+        font-size:70px;
+        color:#fff;
+    }
+}
+
+/* SELECT2 */
+.select2-selection{
+  background-image: linear-gradient(to top, #fa71cd 0%, #c471f5 100%) !important;
+  border:none !important;
+}
+.select2-selection__rendered{
+  color:#fff !important;
+  font-size:17px;
+}

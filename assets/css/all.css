@@ -1,0 +1,11 @@
+/* Forms */
+.no-resize{resize:none;}
+.border-red{border: 1px solid red !important;}
+.color-red{color:red !important;}
+@font-face {font-family: 'Stronger';src: url(../fonts/Stronger/Stronger.otf);}
+.titulo-stronger{font-family: 'Stronger';font-size:130px;line-height: 71px;color:#fff;}
+span.m-menu__link-text.active{color : #b89bfb !important;}
+.m-top-25-px{margin-top:25px;}
+.first-access-title{color:white !important;padding-top: 25px !important;}
+.first-access-select{padding: 0.5rem 0.5rem !important;}
+.border-aniversariantes{border-bottom: 0.07rem solid #ebedf2; padding-bottom: 15px;}

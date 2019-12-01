@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteBase /cherry_pay/
+RewriteCond $1 !^(index\.php|assets|upload|robots\.txt)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value memory_limit -1
+php_value date.timezone America/Sao_Paulo

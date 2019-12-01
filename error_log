@@ -1,0 +1,7 @@
+[15-Oct-2019 20:46:43] PHP Parse error:  syntax error, unexpected T_CONST in /home/iddig832/carteira.iddigitais.com.br/system/core/CodeIgniter.php on line 58
+[15-Oct-2019 20:47:49] PHP Parse error:  syntax error, unexpected T_CONST in /home/iddig832/carteira.iddigitais.com.br/system/core/CodeIgniter.php on line 58
+[15-Oct-2019 21:03:47] PHP Parse error:  syntax error, unexpected T_CONST in /home/iddig832/carteira.iddigitais.com.br/system/core/CodeIgniter.php on line 58
+[15-Oct-2019 21:03:49] PHP Parse error:  syntax error, unexpected T_CONST in /home/iddig832/carteira.iddigitais.com.br/system/core/CodeIgniter.php on line 58
+[15-Oct-2019 21:09:51] PHP Notice:  date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'UTC-3' is invalid in /home/iddig832/carteira.iddigitais.com.br/index.php on line 315
+[15-Oct-2019 21:09:51] PHP Parse error:  syntax error, unexpected T_CONST in /home/iddig832/carteira.iddigitais.com.br/system/core/CodeIgniter.php on line 58
+[15-Oct-2019 21:10:37] PHP Parse error:  syntax error, unexpected T_CONST in /home/iddig832/carteira.iddigitais.com.br/system/core/CodeIgniter.php on line 58

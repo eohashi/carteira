@@ -1,0 +1,75 @@
+@media (max-width:1024px) {
+	#form-login{margin-top:50px;}
+}
+@media (max-width:460px) {
+	#form-login{margin-top:10px;}
+	h1.titulo-login{margin-bottom:30px;}
+}
+
+@media (max-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: -250px;
+    }
+    #sidebar-wrapper.active {
+        margin-left: 0;
+    }
+}
+
+.pd-left-right{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbar{
+  position: relative;
+  margin-bottom: 0px;
+	border: 1px solid transparent;
+}
+
+.menu{
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:underline;
+	padding:10px 20px;
+	margin-bottom:10px;
+}
+.menu:hover{
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:underline;
+	border:solid 1px #fff;
+	border-radius:20px;
+}
+
+h1.titulo-login{
+    color: #fff;
+    text-align: left;
+    font-size: 50px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.titulo-login > span{font-family: 'Stronger';}
+
+
+.foto-perfil-box > img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.infos-user{
+  margin-top: 5px;
+  font-family: 'Open Sans';
+  font-size:20px;
+  color:#fff;
+}
+.infos-username{
+  font-family: 'Open Sans';
+  font-size:20px;
+  margin-bottom:20px;
+  color:#fff;
+}
+
+@media (max-width:769px) {
+  .caption{text-align: center;}
+}
