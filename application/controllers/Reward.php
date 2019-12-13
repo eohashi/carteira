@@ -179,7 +179,7 @@ class Reward extends MY_Controller_Site{
 			
 			/* Define as informações que aparecerão no e-mail */
 			$info_resgate = array(
-				'texto_resgate' => 'Resgate do prêmio <b>'.$no_premio.' ['.$nr_valor.' Cherries]</b> realizado, parabéns pelo seu esforço!',
+				'texto_resgate' => 'Resgate do prêmio <b>'.$no_premio.' ['.$nr_valor.' heckPoints]</b> realizado, parabéns pelo seu esforço!',
 				'aguardar' => 'Agora basta aguardar o responsável lhe entregar seu prêmio!',
 				'base_url' => base_url(),
 				'ano' => $year
@@ -204,7 +204,7 @@ class Reward extends MY_Controller_Site{
 			
 			/* Define as informações que aparecerão no e-mail */
 			$info_resgate = array(
-				'texto_resgate' => 'Resgate do prêmio <b>'.$no_premio.' ['.$nr_valor.' Cherries]</b> solicitado por <b>'.$no_usuario.'</b>.',
+				'texto_resgate' => 'Resgate do prêmio <b>'.$no_premio.' ['.$nr_valor.'CheckPoints]</b> solicitado por <b>'.$no_usuario.'</b>.',
 				'aguardar' => 'Email solicitante: '.$email.'',
 				'base_url' => base_url(),
 				'ano' => $year

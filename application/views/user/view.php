@@ -26,7 +26,7 @@
                                             </div>
                                             <div class="m-card-profile__details">
                                                 <span class="m-card-profile__name" style="padding-top:5px;">
-                                                    <?php echo $colaborador->nr_saldo.' Cherries'; ?>
+                                                    <?php echo $colaborador->nr_saldo.' CheckPoints'; ?>
                                                 </span>                                         
                                             </div>
                                         </div>
@@ -36,7 +36,7 @@
                                                 <a>
                                                     <i class="m-nav__link-icon la la-dollar"></i>
                                                     <span class="m-nav__link-text">
-                                                        Adicionar Cherries
+                                                        Adicionar CheckPoints
                                                     </span>
                                                 </a>
                                             </li>

@@ -49,7 +49,7 @@
                                                                 <tr class="row-reward">
                                                                     <td scope="row"><?php echo $item->no_status; ?></td>
                                                                     <td ><b><?php echo $item->no_premio;?></b><p><?php echo $item->ds_premio;?></p></td>
-                                                                    <td><?php echo $item->nr_valor; ?> Cherries</td>
+                                                                    <td><?php echo $item->nr_valor; ?> CheckPoints</td>
                                                                     <td>
                                                                         <?php 
                                                                             echo form_hidden('no_premio', set_value('no_premio', $item->no_premio));

@@ -25,7 +25,7 @@
                                             </div>
                                             <div class="m-card-profile__details">
                                                 <span class="m-card-profile__name" style="padding-top:5px;">
-                                                    <?php echo $usuario->nr_saldo.' Cherries'; ?>
+                                                    <?php echo $usuario->nr_saldo.' CheckPoints'; ?>
                                                 </span>                                         
                                             </div>
                                         </div>

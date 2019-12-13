@@ -39,7 +39,7 @@
                                     <li  class="m-menu__item  m-menu__item--submenu m-menu__item--rel m--visible-tablet-and-mobile-inline-block"  data-menu-submenu-toggle="click" aria-haspopup="true">
                                         <a  href="<?php echo base_url().'profile/my/'.$this->session->userdata('user'); ?>" class="m-menu__link ">
                                             <span id="profile" class="m-menu__link-text">
-                                                Profile
+                                                Perfil
                                             </span>
                                             
                                         </a>
@@ -47,7 +47,7 @@
                                     <li class="m-menu__item  m-menu__item--submenu m-menu__item--rel"  data-menu-submenu-toggle="click" data-redirect="true" aria-haspopup="true">
                                         <a  href="<?php echo base_url(); ?>explore" class="m-menu__link">
                                             <span id="explore" class="m-menu__link-text">
-                                                Explore/Transfer
+                                                Transferir
                                             </span>
                                         </a>
                                     </li>
@@ -57,7 +57,7 @@
                                                 echo '<li class="m-menu__item m-menu__item--submenu m-menu__item--rel" data-menu-submenu-toggle="click">
                                                         <a href="#" class="m-menu__link m-menu__toggle ">
                                                             <span id="reward" class="m-menu__link-text">
-                                                                Rewards
+                                                                Premios
                                                             </span>
                                                             <i class="m-menu__hor-arrow la la-angle-down"></i>
                                                             <i class="m-menu__ver-arrow la la-angle-right"></i>
@@ -71,7 +71,7 @@
                                                                             <a href="'.base_url().'reward" class="m-menu__link ">
                                                                                 <i class="m-menu__link-icon la la-trophy"></i>
                                                                                 <span class="m-menu__link-text">
-                                                                                    Resgatar Rewards
+                                                                                    Resgatar Premio
                                                                                 </span>
                                                                             </a>
                                                                         </li>';
@@ -88,7 +88,7 @@
                                                                     <a href="'.base_url().'reward/all" class="m-menu__link ">
                                                                         <i class="m-menu__link-icon fa fa-eye"></i>
                                                                         <span class="m-menu__link-text">
-                                                                            Visualizar Rewards
+                                                                            Visualizar Premios
                                                                         </span>
                                                                     </a>
                                                                 </li>
@@ -96,7 +96,7 @@
                                                                     <a href="'.base_url().'reward/historic" class="m-menu__link ">
                                                                         <i class="m-menu__link-icon la la-history"></i>
                                                                         <span class="m-menu__link-text">
-                                                                            Histórico Rewards
+                                                                            Históricode Premios
                                                                         </span>
                                                                     </a>
                                                                 </li>
@@ -109,7 +109,7 @@
                                                     <li class="m-menu__item  m-menu__item--submenu m-menu__item--rel"  data-menu-submenu-toggle="click" data-redirect="true" aria-haspopup="true">
                                                         <a  href="'.base_url().'reward" class="m-menu__link">
                                                             <span id="reward" class="m-menu__link-text">
-                                                                    Rewards
+                                                                    Premios
                                                             </span>
                                                           </a>
                                                     </li>';
@@ -155,7 +155,7 @@
                                                                     <?php echo $usuario->no_email; ?>
                                                                 </a>
                                                                 <span class="m-card-user__name m--font-weight-500" style="padding-top:5px;">
-                                                                    <?php echo $usuario->nr_saldo; ?> Cherries
+                                                                    <?php echo $usuario->nr_saldo; ?> CheckPoints
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -169,7 +169,7 @@
                                                                         <span class="m-nav__link-title">
                                                                             <span class="m-nav__link-wrap">
                                                                                 <span class="m-nav__link-text">
-                                                                                    Profile
+                                                                                    Perfil
                                                                                 </span>
                                                                                 
                                                                             </span>
@@ -180,7 +180,7 @@
                                                                     <a href="<?php echo base_url(); ?>explore" class="m-nav__link">
                                                                         <i class="m-nav__link-icon la la-retweet"></i>
                                                                         <span class="m-nav__link-text">
-                                                                            Explore/Transfer
+                                                                            Transferir
                                                                         </span>
                                                                     </a>
                                                                 </li>
@@ -188,7 +188,7 @@
                                                                     <a href="<?php echo base_url(); ?>reward" class="m-nav__link">
                                                                         <i class="m-nav__link-icon la la-trophy"></i>
                                                                         <span class="m-nav__link-text">
-                                                                            Rewards
+                                                                            Premios
                                                                         </span>
                                                                     </a>
                                                                 </li>

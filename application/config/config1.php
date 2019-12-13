@@ -105,8 +105,8 @@ $config['premio_entretenimento'] = 2;
 $config['premio_viagem'] = 3;
 $config['premio_presente'] = 4;
 
-$config['title_generic'] = 'CherryPay';
-$config['project_name'] = 'CherryPay';
+$config['title_generic'] = 'CheckPoint';
+$config['project_name'] = 'CheckPoint';
 $config['root'] = '/cherry_pay/';
 /* Each hour has 3600 seconds. So each day has 86400 seconds */
 $config['cookie_expires'] = '432000';

@@ -88,7 +88,7 @@
                                                             Saldo atual
                                                         </label>
                                                         <div class="col-7">
-                                                            <?php echo form_input('nr_saldo', set_value('nr_saldo', $usuario->nr_saldo.' Cherries'), 'class="form-control m-input" name="nr_saldo" disabled'); ?>
+                                                            <?php echo form_input('nr_saldo', set_value('nr_saldo', $usuario->nr_saldo.' CheckPoints'), 'class="form-control m-input" name="nr_saldo" disabled'); ?>
                                                         </div>
                                                     </div>
                                                     <div class="form-group m-form__group row">

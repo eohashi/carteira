@@ -21,7 +21,6 @@
         <link href="<?php echo base_url(); ?>assets/theme/css/vendors.bundle.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo base_url(); ?>assets/theme/css/style.bundle.css" rel="stylesheet" type="text/css" />
         <!--end::Base Styles -->
-        <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/cereja.png" />
         <?php if(isset($css)) foreach($css as $key=>$value) echo $value; ?>
     </head>
      <?php echo form_hidden('base_url', set_value('', base_url())); ?>

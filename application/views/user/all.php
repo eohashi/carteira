@@ -34,7 +34,7 @@
                                                     </a>
                                                     <button data-toggle="modal" data-target="#myModalKavs" class="btn-kavs-for-all dropdown-item">
                                                         <span><i class="fa flaticon-piggy-bank"></i>
-                                                            <span>Cherries para todos</span>
+                                                            <span>CheckPoints para todos</span>
                                                         </span>
                                                     </button>
                                                 </div>
@@ -61,7 +61,7 @@
                                                                     <td scope="row"><?php echo $item->cd_usuario; ?></td>
                                                                     <td ><?php echo $item->no_status; ?></td>
                                                                     <td class="name-user"><?php echo $item->no_usuario; ?></td>
-                                                                    <td><?php echo $item->nr_saldo; ?> Cherries</td>
+                                                                    <td><?php echo $item->nr_saldo; ?> CheckPoints</td>
                                                                     <td>
                                                                         <?php 
                                                                             echo form_hidden('no_usuario', set_value('no_usuario', $item->no_usuario));

@@ -206,7 +206,7 @@ class Transfer extends MY_Controller_Site{
 		$year = date("Y");
 		/* Define as informações que aparecerão no e-mail */
 		$info_recebeu = array(
-			'texto_recebeu_kavs' => 'Você acaba de receber <b>'.$valor.' Cherries</b> de <b>'.$no_usuario.'</b>!',
+			'texto_recebeu_kavs' => 'Você acaba de receber <b>'.$valor.'CheckPoints</b> de <b>'.$no_usuario.'</b>!',
 			'ds_motivo' => 'Motivo: '.$ds_motivo.'.',
 			'base_url' => base_url(),
 			'ano' => $year

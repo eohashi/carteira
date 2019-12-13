@@ -144,12 +144,12 @@ function constructModal(e,cd_premio,no_premio,nr_valor,nr_saldo){
                                         <form>\
                                             <div class="form-group">\
                                                 <label for="recipient-name" class="form-control-label" style="font-size:14px">\
-                                                    Você deseja trocar <b>'+nr_valor+' Cherries</b> pelo prêmio <b>'+no_premio+'</b>?\
+                                                    Você deseja trocar <b>'+nr_valor+'CheckPoints</b> pelo prêmio <b>'+no_premio+'</b>?\
                                                 </label>\
                                             </div>\
                                             <div class="form-group form-delete">\
                                                 <label for="recipient-name" class="form-control-label" style="font-size:14px">\
-                                                    Saldo: <span style="color:'+(parseInt(nr_saldo) > parseInt(nr_valor) ? "#64bd95" : "#c53030")+';"><b>'+nr_saldo+' Cherries</b></span>\
+                                                    Saldo: <span style="color:'+(parseInt(nr_saldo) > parseInt(nr_valor) ? "#64bd95" : "#c53030")+';"><b>'+nr_saldo+' CheckPoints</b></span>\
                                                 </label>\
                                             </div>\
                                             <div class="form-group form-delete">\

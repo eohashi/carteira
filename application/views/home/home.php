@@ -59,12 +59,12 @@
                                                                             </div>
                                                                             <div class="m-timeline-2__item-text m--padding-top-5">';
                                                                                 if($item->cd_tipo_transacao == $this->config->item('transaction_resgate')){
-                                                                                    echo 'Você trocou '.$item->nr_valor.' Cherries por <a class="m-link m-link--metal m-timeline-3__item-link" href="'.base_url().'reward">'.$item->no_premio.'</a>';
+                                                                                    echo 'Você trocou '.$item->nr_valor.' heckPoints por <a class="m-link m-link--metal m-timeline-3__item-link" href="'.base_url().'reward">'.$item->no_premio.'</a>';
                                                                                 } else{
                                                                                     if($item->cd_recebedor == $usuario->cd_usuario){
-                                                                                        echo '<a class="m-link m-link--brand m--font-bolder" href="'.base_url().'transfer/to/'.$item->payer_md5.'">'.$item->payer.'</a> pagou '.$item->nr_valor.' Cherries para mim';
+                                                                                        echo '<a class="m-link m-link--brand m--font-bolder" href="'.base_url().'transfer/to/'.$item->payer_md5.'">'.$item->payer.'</a> pagou '.$item->nr_valor.' CheckPoints para mim';
                                                                                     }else{
-                                                                                        echo 'Você pagou '.$item->nr_valor.' Cherries a <a class="m-link m-link--brand m--font-bolder" href="'.base_url().'transfer/to/'.$item->receiver_md5.'">'.$item->receiver.'</a>';
+                                                                                        echo 'Você pagou '.$item->nr_valor.'CheckPoints a <a class="m-link m-link--brand m--font-bolder" href="'.base_url().'transfer/to/'.$item->receiver_md5.'">'.$item->receiver.'</a>';
                                                                                     }
                                                                                     echo '<br/>
                                                                                     <b>Motivo:</b> '.$item->ds_motivo;
@@ -114,13 +114,13 @@
                                                                         <span class="m-timeline-3__item-text">
                                                                             <?php
                                                                                 if($item->cd_tipo_transacao == $this->config->item('transaction_resgate')){?>
-                                                                                    Troca por Prêmio! <?php echo '['.$item->no_premio.' - '.$item->nr_valor.' Cherries]'; ?>
+                                                                                    Troca por Prêmio! <?php echo '['.$item->no_premio.' - '.$item->nr_valor.' heckPoints]'; ?>
                                                                                     <br>
                                                                                     <span class="m-timeline-3__item-user-name">
                                                                                         <a href="<?php echo base_url().'transfer/to/'.$item->payer_md5; ?>" class="m-link m-link--metal m-timeline-3__item-link"><?php echo $item->payer; ?></a>
                                                                                     </span>
                                                                                 <?php } else{ ?>
-                                                                                    <b><a href="<?php echo base_url().'transfer/to/'.$item->receiver_md5; ?>" class="m-link m-link--brand m--font-bolder"><?php echo $item->receiver; ?></a></b> recebeu <?php echo $item->nr_valor; ?> Cherries
+                                                                                    <b><a href="<?php echo base_url().'transfer/to/'.$item->receiver_md5; ?>" class="m-link m-link--brand m--font-bolder"><?php echo $item->receiver; ?></a></b> recebeu <?php echo $item->nr_valor; ?> CheckPoints
                                                                                     <br>
                                                                                     <b>Motivo: </b><?php echo $item->ds_motivo; ?>
                                                                                     <br>
